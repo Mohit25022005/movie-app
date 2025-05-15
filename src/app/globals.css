@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+/* Hide default scrollbar but allow scrolling */
+div::-webkit-scrollbar {
+  height: 8px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 4px;
+}
+
+div::-webkit-scrollbar-track {
+  background: transparent;
+}
